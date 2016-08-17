@@ -1,5 +1,6 @@
 FROM alpine:3.4
 MAINTAINER Global Solutions co., ltd.
+LABEL version="0.1.0"
 
 ENV GOPATH=/go GOVERSION=1.6.3-r0 \
     REPO_NS=github.com/compose \
