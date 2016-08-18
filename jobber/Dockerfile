@@ -1,5 +1,6 @@
 FROM gsol/transporter
 MAINTAINER Global Solutions co., ltd.
+LABEL version="0.1.0"
 
 ENV PKG_PATH=github.com/dshearer/jobber \
     JOBBER_USER=jobber_client \
